@@ -409,37 +409,7 @@ int main()
 
 	srand(time(NULL));
 
-	int a, d;
-
-	do
-
-	{
-
-		printf("Which task");
-
-		scanf_s("%d", &d);
-
-		switch (d)
-
-		{
-
-
-
-		case 1: task1(); break;
-
-
-
-		default:
-
-			break;
-
-		}
-
-		printf(" do you want continue y(1)/no(2)");
-
-		scanf_s("%d", &a);
-
-	} while (a == 1);
+ task1();
 
 	system("pause");
 
